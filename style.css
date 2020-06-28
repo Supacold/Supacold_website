@@ -31,6 +31,12 @@ body {
     max-width: 1024px;
 }
 
+.navigator {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 header {
     /* background-color: blue; */
     height: 80px;
@@ -81,11 +87,11 @@ a {
 nav a {
     text-decoration: none;
     color: #666;
-    font-size: 14px;
+    font-size: 13px;
     padding-left: 20px;
     padding-right: 20px;
     font-family: pro;
-    letter-spacing: 7px;
+    letter-spacing: 2px;
 }
 
 nav a:hover {
