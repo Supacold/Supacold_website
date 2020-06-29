@@ -47,7 +47,7 @@ header {
 }
 
 nav {
-    /* background-color: rgba(0, 0, 0, 0.603); */
+    background-color: red;
     height: 70px;
     margin-top: 100px;
     text-align: center;
@@ -93,7 +93,6 @@ nav a {
     padding-right: 20px;
     font-family: pro;
     letter-spacing: 2px;
-    display: inline-block;
 
 }
 
@@ -116,6 +115,18 @@ section iframe{
 }
 
 @media screen and (max-width: 768px){
-    
+    nav {
+        width: 400px;
+    }
 
+    nav a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section iframe{
+        width: 375px;
+        height: 217px;
+        
+    }
 }
