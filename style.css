@@ -122,7 +122,7 @@ section iframe{
 }
 
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     nav {
         width: 401px;
     }
@@ -137,4 +137,4 @@ section iframe{
         height: 217px;
         
     }
-} */
+}
