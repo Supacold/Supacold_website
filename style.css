@@ -1,20 +1,10 @@
-@font-face {
-    src: url(fonts/ProximaNova-Regular.otf);
-    font-family: pro;
-}
-
-html {
-    height: 100%;
-}
-
-
 body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
     background-color:white;
     /* background-image: url(images/sushi.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .logo {
@@ -71,13 +61,11 @@ footer {
 h1 {
     font-size: 84px;
     color: grey;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     font-size: 18px;
     color: grey;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -91,7 +79,6 @@ nav a {
     font-size: 13px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: pro;
     letter-spacing: 2px;
 
 }
